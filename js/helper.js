@@ -65,7 +65,7 @@ The International Name challenge in Lesson 2 where you'll create a function that
 $(document).ready(function() {
   $('button').click(function() {
     var iName = inName(name) || function(){};
-    $('#name').html(iName);  
+    $('#name').html(iName);
   });
 });
 
@@ -84,8 +84,11 @@ function logClicks(x,y) {
   console.log('x location: ' + x + '; y location: ' + y);
 }
 
+//Function to log click coordinates
 $(document).click(function(loc) {
-  // your code goes here!
+    var x = loc.pageX;
+    var y = loc.pageY;
+    logClicks(x, y);
 });
 
 

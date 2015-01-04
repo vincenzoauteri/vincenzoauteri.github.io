@@ -199,7 +199,7 @@ body {
 /* When viewport is large, top and bottom bar stay fixed */
 .navbar-fixed-top {
     max-width: 940px;
-    width: 100%;  
+    width: 100%;
     position: fixed;
     margin: auto;
     top: 0px;
@@ -207,7 +207,7 @@ body {
 
 .navbar-fixed-bottom {
     max-width: 940px;
-    width: 100%;  
+    width: 100%;
     position: fixed;
     margin: auto;
     bottom: 0px;

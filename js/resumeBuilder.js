@@ -70,7 +70,7 @@ var work = {
 
 //Projects object - linked to "projects" div in the html
 //Added URL property, to link to relevant address
-var projects = { 
+var projects = {
     "projects":[
     {'title':'Wireless ECG Board',
         'dates':'2006-2007',
@@ -126,19 +126,19 @@ var projects = {
 };
 
 
-//Bio object - linked to header information in the html 
+//Bio object - linked to header information in the html
 var bio = {
     'name':'Vincenzo Auteri',
     'role':'Software Engineer',
-    'contacts':  
+    'contacts':
     { 'mobile':'' ,
         'email':'vincenzo.auteri@hotmail.com',
         'github':'github.com/vincenzoauteri',
         'twitter':'',
         'location':'Madrid, Spain'
-    }, 
+    },
     'welcomeMessage':' Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.',
-    'skills':[ 'C/C++ programming', 
+    'skills':[ 'C/C++ programming',
     'Embedded applications development',
     'Web applications development'],
     'biopic':'images/homer.jpg',
@@ -163,7 +163,7 @@ var bio = {
         } else {
             console.log ('Object bio has no skills object');
         }
-        //Redefine some variables. I chose to leave the ones in helper.js to 
+        //Redefine some variables. I chose to leave the ones in helper.js to
         //concentrate the changes here
 
         var HTMLlocation = '<li class="flex-item"><span class="white-text">%data%</span></li>';
@@ -217,7 +217,7 @@ var education =
         'school':'Udacity',
         'date':'12/21/2011',
         'url':'https://www.udacity.com/course/cs253'
-    } , { 
+    } , {
         'title':'Intro to Statistics',
         'school':'Udacity',
         'date':'8/8/2012',
@@ -306,13 +306,6 @@ var education =
         }
 
 }
-//
-// Function to log mouse click coordinates
-$(document).click (function(loc) {
-    var x = loc.pageX;
-    var y = loc.pageY;
-    logClicks(x, y);
-});
 
 
 //Helper function to call display method on each defined json object to
@@ -334,7 +327,6 @@ $('#mapDiv').append(googleMap);
 
 var locationizer = function(work_object) {
     var result = [];
-
     if (work_object['jobs'].length >0) {
         for (var jobIndex = 0; jobIndex< work_object.jobs.length; jobIndex++) {
             result.push(work_object.jobs[jobIndex].location);
