@@ -1,6 +1,6 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -34,7 +34,7 @@ h3 {
 h4 {
     font-weight: bold;
     font-size: 14px;
-    color: #4A4A4A;
+    color: #4a4a4a;
     line-height: 17px;
 }
 
@@ -48,7 +48,7 @@ h2, h3, h4, h5 {
 .date-text {
     font-style: italic;
     font-size: 14px;
-    color: #999999;
+    color: #999;
     line-height: 16px;
     float: left;
 }
@@ -56,7 +56,7 @@ h2, h3, h4, h5 {
 .location-text {
     font-style: italic;
     font-size: 14px;
-    color: #999999;
+    color: #999;
     line-height: 16px;
     float: right;
 
@@ -69,7 +69,7 @@ p {
 }
 
 a {
-    color: #1199C3;
+    color: #1199c3;
     text-decoration: none;
     margin-top: 10px;
     display: block;
@@ -78,30 +78,30 @@ a {
 .welcome-message {
     font-style: italic;
     font-size: 18px;
-    color: #F3F3F3;
+    color: #f3f3f3;
     line-height: 28px;
 }
 
 #skillsH3 {
-    color: #F5AE23;
+    color: #f5ae23;
     display: none;
 }
 
 .orange {
-    background-color: #F5AE23;
+    background-color: #f5ae23;
 }
 
 .orange-text {
-    color: #F5AE23;
+    color: #f5ae23;
 }
 
 .white-text {
     font-weight: bold;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .blue {
-    background-color: #3F5C9B;
+    background-color: #3f5c9b;
 }
 
 .light-blue {
@@ -109,21 +109,20 @@ a {
 }
 
 .gray {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     padding-bottom: 10px;
-    clear:both;
+    clear: both;
 }
 
 .dark-gray {
-    background-color: #4A4A4A;
+    background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
-    color: #EEE;
-    font-size:100%;
-    width:100%;
-    height:100%;
+    color: #eee;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .flex-box {
@@ -160,7 +159,7 @@ img {
 /* Bar chart stuff */
 .chart div {
     font: 10px sans-serif;
-    background-color: #4A4A4A;
+    background-color: #4a4a4a;
     text-align: right;
     padding: 3px;
     margin: 1px;
@@ -177,7 +176,6 @@ span {
     text-align: center;
 }
 
-
 #map {
     display: block;
     height: 100%;
@@ -193,7 +191,7 @@ span {
 body {
     max-width: 940px;
     margin: auto;
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0 80px 0;
 }
 
 /* When viewport is large, top and bottom bar stay fixed */
@@ -202,7 +200,7 @@ body {
     width: 100%;
     position: fixed;
     margin: auto;
-    top: 0px;
+    top: 0;
 }
 
 .navbar-fixed-bottom {
@@ -210,7 +208,7 @@ body {
     width: 100%;
     position: fixed;
     margin: auto;
-    bottom: 0px;
+    bottom: 0;
 }
 
 #footerContacts {
@@ -219,11 +217,12 @@ body {
 
 /* Some margin and padding for each resume section */
 .section {
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 
+/* Sets the project images to the same size */
 .project-image {
     width: 320px;
     height: 200px;
@@ -238,7 +237,7 @@ body {
         position: static;
     }
     body {
-        padding: 0px 0px 0px 0px;
+        padding: 0;
     }
     .biopic {
         display: none;

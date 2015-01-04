@@ -72,17 +72,20 @@ var work = {
 //Added URL property, to link to relevant address
 var projects = {
     "projects":[
-    {'title':'Wireless ECG Board',
+    {
+        'title':'Wireless ECG Board',
         'dates':'2006-2007',
         'description':'Design and development of a wireless ECG board',
         'images':['images/ecg.png','images/ecg2.png'],
         'url':'https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCMQFjAA&url=http%3A%2F%2Fwww.researchgate.net%2Fpublication%2F224369355_ZigBee-nased_wireless_ECG_monitor%2Flinks%2F09e4150b5c33425be4000000.pdf&ei=riipVNf1BomGzAO51oDoCw&usg=AFQjCNENZzLeNOo9oJ2RI81n8KLhNOzXlQ&bvm=bv.82001339,d.bGQ'
-    } , {'title':'Scopy',
+    } , {
+        'title':'Scopy',
         'dates':'2012',
         'description':'Sample project for online startup founding class',
         'images':['images/scopy.png'],
         'url':'https://novoed.com/venture/pitch_decks/32'
-    } , {'title':'PiPlay',
+    } , {
+        'title':'PiPlay',
         'dates':'2014',
         'description':'Web Application to Strem Videos from Raspberry Pi',
         'images':['images/piplay.png'],
@@ -131,7 +134,8 @@ var bio = {
     'name':'Vincenzo Auteri',
     'role':'Software Engineer',
     'contacts':
-    { 'mobile':'' ,
+    { 
+        'mobile':'' ,
         'email':'vincenzo.auteri@hotmail.com',
         'github':'github.com/vincenzoauteri',
         'twitter':'',
@@ -202,12 +206,13 @@ var education =
         'majors':
             [
             'Electronics',
-        'Biomedical Engineering'
+            'Biomedical Engineering'
             ],
         'dates':'2007',
         'url':'http://www.unibo.it/en/homepage'
     } ],
-    'onlineCourses': [ {
+    'onlineCourses': [ 
+    {
         'title':'Introduction to Artificial Intelligence',
         'school':'Udacity',
         'date':'12/21/11',
